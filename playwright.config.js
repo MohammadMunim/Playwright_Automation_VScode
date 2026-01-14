@@ -13,8 +13,8 @@ import { defineConfig, devices } from '@playwright/test';
  * @see https://playwright.dev/docs/test-configuration
  */
 export default defineConfig({
-  testDir: './tests_playwright',
-
+  //testDir: './tests_playwright',
+testDir: './tests',
   /* Maximum time one test can run for 30 seconds. */
   timeout: 30 * 1000,
   expect: {
