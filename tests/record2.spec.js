@@ -3,7 +3,7 @@ const { webkit, devices } = require('playwright');
 
 test ('record demo 2', async () => {
   const browser = await webkit.launch({
-    headless: false
+    headless: true
   });
   const context = await browser.newContext({
     ...devices['iPhone 15 Pro Max'],
