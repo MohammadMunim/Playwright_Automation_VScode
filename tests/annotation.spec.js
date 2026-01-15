@@ -6,8 +6,7 @@ test.skip('skip this test', async ({ page }) => {
 });
 
 
-//will mark test as failure
-//will show error if the test does not fail
+//will mark test as failure andwill show error if the test does not fail
 test('not yet ready', async ({ page }) => {
     test.fail();
 });
